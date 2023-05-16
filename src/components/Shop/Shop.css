@@ -25,3 +25,10 @@
     justify-content: space-between;
     align-items: center;
 }
+.pagination{
+    text-align: center;
+    font-size: 25px;
+}
+.pagination .selected{
+    background-color: #FF9900;
+}

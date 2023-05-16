@@ -6,7 +6,7 @@ import { Context } from '../../provider/Provider';
 
 const Header = () => {
     const {user , logOut} = useContext(Context);
-    console.log(user);
+    // console.log(user);
     const handlerSignOut =() =>{
         logOut()
         .then(result =>{ })
